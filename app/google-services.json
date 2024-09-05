@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831896319434",
+    "project_id": "photoandvideopicker",
+    "storage_bucket": "photoandvideopicker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831896319434:android:2f98163c79b43b50748b33",
+        "android_client_info": {
+          "package_name": "com.kaaneneskpc.photoandvideopicker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA76qnou6bJWHB8yDAnb64cyDnZ2rS_6eI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
