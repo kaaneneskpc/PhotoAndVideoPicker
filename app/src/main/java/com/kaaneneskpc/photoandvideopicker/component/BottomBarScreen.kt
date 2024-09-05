@@ -3,7 +3,9 @@ package com.kaaneneskpc.photoandvideopicker.component
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.AddCircle
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -50,7 +52,7 @@ fun BottomBar(navController: NavHostController) {
             BottomBarScreen(
                 route = "multi",
                 title = "Multi",
-                icon = Icons.Default.Add
+                icon = Icons.Default.AddCircle
             )
         )
     }
@@ -60,7 +62,7 @@ fun BottomBar(navController: NavHostController) {
             BottomBarScreen(
                 route = "video",
                 title = "Video",
-                icon = Icons.Default.Add
+                icon = Icons.Filled.PlayArrow
             )
         )
     }
